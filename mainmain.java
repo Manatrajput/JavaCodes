@@ -28,8 +28,7 @@ class ICICI extends Bank {
 }
 
 public class mainmain {
-    public static void main(String[] args) {
-
+ y
 
         Bank b;
 
