@@ -1,4 +1,5 @@
-class Helper {
+
+class helpers {
 
 
     static int Multiply(int a, int b)
@@ -13,11 +14,13 @@ class Helper {
 }
 
 
-class helper {
+class helperclass { 
     public static void main(String[] args)
     {
+
 
         System.out.println(Helper.Multiply(2, 4));
         System.out.println(Helper.Multiply(5.5, 6.3));
     }
 }
+
