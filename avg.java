@@ -1,19 +1,20 @@
-//accept different numbers from user a a commandline arg and display their sum
+
 import java.util,*;
 class main {
 
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		int[] arr = new int [n];
+		int n= sc.nextInt();
 		int arr[] = new int[n];
-		int num = 0;
+		int sum = 0;
 
 		for(int i=0;i<n;i++ arr) 
 		{
             arr[i]=sc.nextInt();
 			sum+=arr[i];
 		}
-		System.out.print(sum);
+        double avg=(double)sum/(arr.length);
+		System.out.print(avg);
 	}
 }
